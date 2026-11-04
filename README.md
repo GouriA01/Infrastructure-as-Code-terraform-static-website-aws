@@ -69,6 +69,8 @@ cd ~/my-website
 
 ## Step 3 Create the Files
 
+Create below 3 files using vi editor main.tf , outputs.tf and index.html and paste the files content as given below.
+
 main.tf 
 
 ```hcl
