@@ -1,4 +1,4 @@
-# My First Website on AWS with Terraform
+# Hosting Website on AWS with Terraform
 
 A beginner friendly project that deploys a live HTTPS website on AWS with one command.
 
@@ -163,7 +163,7 @@ index.html
 <html>
 <body style="text-align:center; padding-top:80px; font-family:Arial;">
   <h1>Hello from Terraform</h1>
-  <p>My first website on AWS S3 and CloudFront</p>
+  <p>My hosting website on AWS S3 and CloudFront</p>
 </body>
 </html>
 ```
