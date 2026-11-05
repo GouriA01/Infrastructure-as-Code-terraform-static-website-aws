@@ -1,6 +1,6 @@
 # Hosting Website on AWS with Terraform
 
-A beginner friendly project that deploys HTTPS website on AWS.
+A beginner friendly project that deploys a simple HTML website over HTTPS on AWS.
 
 Built for students and freshers learning Infrastructure as Code.
 
@@ -33,8 +33,10 @@ If your account allows public buckets, an S3 only website also works, but it is 
 - S3 One small HTML file costs a fraction of a cent.
 - CloudFront The AWS Free Tier covers far more traffic than a test site uses.
 - Total Practically zero if you run terraform destroy after testing.
+- CloudFront The Free Tier includes 1 TB of data transfer and 10 million requests per month, far more than this project uses.
 
 Set a billing alert in AWS Budgets and check the AWS Free Tier page for current limits, since they can change.
+Run terraform destroy when you're done
 
 ## Project Files
 
@@ -48,6 +50,7 @@ my-website/
 ## Step 1 Install Terraform in CloudShell
 
 Tools installed with sudo are removed when a CloudShell session ends. Install Terraform in your home folder so it stays.
+You may see a message that your Terraform version is out of date. That's only a notice, and 1.9.8 works fine for this project.
 
 ```bash
 mkdir -p ~/bin
