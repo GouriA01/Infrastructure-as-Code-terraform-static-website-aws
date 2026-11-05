@@ -1,6 +1,6 @@
 # Hosting Website on AWS with Terraform
 
-A beginner friendly project that deploys a live HTTPS website on AWS with one command.
+A beginner friendly project that deploys HTTPS website on AWS.
 
 Built for students and freshers learning Infrastructure as Code.
 
@@ -14,7 +14,7 @@ Built for students and freshers learning Infrastructure as Code.
 
 ## Environment
 
-- Terminal AWS CloudShell (no laptop setup needed)
+- Terminal AWS CloudShell
 - Region us-east-1
 - Tool Terraform 1.9.8
 
